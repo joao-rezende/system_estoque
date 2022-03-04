@@ -1,0 +1,364 @@
+.conteudo-login {
+    position: relative; 
+    z-index: 0;
+}
+
+.div-login {
+    display: block; 
+    width: 100%; 
+    z-index: 1;
+    position: relative;
+}
+
+.fundo-login {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    padding: 0; 
+    background-image: url(../hus/img/banner/banner.png);
+    position: relative;
+    z-index: 0;
+    display: flex!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.fundo-login::before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .41;
+}
+
+.box-login {
+    background: rgba(0, 0, 0, 0.86); 
+    padding: 85px 80px 85px 98px;
+}
+
+.box-login span {
+    height: 2px;
+    width: 140px;
+    background: #e66543;
+    display: inline-block;
+    margin-bottom: 34px;
+}
+
+.titulo-box {
+    font-family: "Oswald", sans-serif; 
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 80px;
+}
+
+.box-login p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.box-login input {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.box-login .boxed-btn3 {
+    color: #9f9f9f;
+    background: transparent;
+    border-color: #e66543;
+}
+
+.box-login .boxed-btn3:hover {
+    background: #e66543;
+}
+
+.header-area .main-header-area .row {
+    padding: 15px 0;
+}
+
+.header-area .main-header-area [class*=col-] {
+    margin-bottom: -0.5px;
+}
+
+.header-area .main-header-area .logo {
+    background: #e66543;
+    color: #eee;
+    padding: 10px 0;
+}
+
+.header-area .main-header-area .logo a{
+    color: #eee;
+}
+
+.header-area .main-header-area .logo h3 {
+    color: #eee;
+    margin: 0;
+}
+
+.header-area .main-header-area .main-menu ul li a:hover,
+.header-area .main-header-area .main-menu ul li .submenu li:hover a {
+    color: #e66543;
+}
+
+.header-area .main-header-area .main-menu ul li:hover > .submenu {
+    top: 100%;
+}
+
+.header-area .main-header-area .main-menu ul li .submenu {
+    top: 225%;
+}
+
+.header-area .main-header-area .main-menu ul li:not(.pull-right) a {
+    padding: 13.5px 0;
+}
+
+.header-area .main-header-area .main-menu ul li.pull-right {
+    padding: 4px 0;
+}
+
+#editar-usuario .texto {
+    display: inline-flex;
+    font-size: 15px;
+    line-height: 51px;
+}
+
+.circulo {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 8px 12px;
+    font-size: 25px;
+    color:#212529;
+    display: inline-flex;
+}
+
+.header-area .main-header-area .main-menu ul li.usuario {
+    margin-right: 15px;}
+
+.header-area .main-header-area .main-menu ul li.pull-right .submenu {
+    right: 0;
+    left: auto;
+    top: 100%;
+}
+
+.header-area .social_wrap {
+    margin-right: 0;
+}
+
+.footer h2{
+    color: #fff;
+}
+
+.footer .footer_top {
+    padding: 20px 10px;
+}
+
+.footer .footer_top .copy_right a {
+    color: #e66543;
+    text-decoration: underline;
+}
+
+.footer .footer_top .copy_right {
+    padding-top: 4px;
+}
+
+.inicio {
+    padding: 20px 10px;
+}
+
+.inicio .unico_livro .capa {
+    height: 350px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio .unico_livro .livro_info .exemplares {
+    width: 78px;
+    text-align: center;
+    background: #e66543;
+    padding: 21px 5px;
+    height: 86px;
+    position: relative;
+    margin-top: 35px;   
+}
+
+.inicio .unico_livro .livro_info .exemplares p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.inicio .unico_livro .livro_info .exemplares p span {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.inicio .unico_livro .livro_info .descricao {
+    width: 100%;
+    float: right;
+    background: #fff;
+    margin-left: 15px;
+    padding: 10px;
+    border: 1px solid #f7f7f7;
+    position: relative;
+    margin-top: -45px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.inicio .unico_livro .livro_info .descricao span {
+    font-size: 14px;
+    color: #707b8e;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    padding-left: 15px;
+}
+
+.inicio .unico_livro .livro_info .descricao a.read_more {
+    font-size: 14px;
+    color: #3a3a3a;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+}
+
+.inicio .unico_livro .livro_info .descricao a.read_more i {
+    position: relative;
+    font-size: 14px;
+    top: -1px;
+}
+
+#conteudo-template {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table .thead-dark th {
+    background-color: #0d101c;
+}
+
+.line-1 {
+    line-height: 1;
+}
+
+#conteudo-template .titulo {
+    font-size: 32px;
+}
+
+.table .col-botao {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+@media(max-width: 767px) {
+    .header-area .main-header-area {
+        padding: 0;
+    }
+
+    .header-area .main-header-area .logo {
+        padding: 10px;
+    }
+
+    .box-login {
+        padding: 50px 25px 70px;
+    }
+}
+
+.header-area .main-header-area .main-menu ul li.emprestimo .submenu {
+    width: 330px;
+}
+
+.header-area .main-header-area .main-menu .emprestimo .submenu li {
+    margin: 0;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.header-area .main-header-area .main-menu .emprestimo .submenu li.livros-reservados {
+    height: 120px;
+}
+
+.emprestimo .submenu .btn-excluir {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.emprestimo .submenu .titulo {
+    float: left;
+    width: 60%;
+}
+
+.emprestimo .submenu .miniatura-capa {
+    float: left;
+    width: 40%;
+    height: 100px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#novo-emprestimo {
+    position: relative;
+}
+
+#novo-emprestimo .badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+}
+
+.btn-laranja, .header-area .main-header-area .main-menu ul li .submenu li a.btn-laranja {
+    background-color: #e66543;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+}
+
+.btn-laranja:hover, .header-area .main-header-area .main-menu ul li .submenu li a.btn-laranja:hover {
+    background-color: #c65533;
+    color: #fff;
+}
+
+.form-control[type=file] {
+    padding: 3px .75rem;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#tabela-telefones {
+    margin-top:  10px;
+}
+
+.btn-excluir-telefone {
+    font-size: 24px;
+}
